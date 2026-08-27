@@ -1,8 +1,7 @@
 [build]
-  base = "team_nexa_logistics"
-  command = "cd backend && npm install"
-  publish = "frontend"
-  functions = "backend"
+  command = "npm --prefix team_nexa_logistics/backend install"
+  publish = "team_nexa_logistics/frontend"
+  functions = "team_nexa_logistics/backend"
 
 [functions]
   node_bundler = "esbuild"

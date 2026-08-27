@@ -6,6 +6,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "@supabase/supabase-js": "^2.112.4",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "serverless-http": "^4.0.0"
   }
 }

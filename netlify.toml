@@ -1,4 +1,5 @@
 [build]
+  base = "team_nexa_logistics"
   command = "cd backend && npm install"
   publish = "frontend"
   functions = "backend"
